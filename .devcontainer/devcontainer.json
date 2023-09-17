@@ -1,4 +1,11 @@
 {
-	"name": "Node.js",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye"
+	"$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+	"name": "nestjs_shims",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+	  "ghcr.io/devcontainers-contrib/features/pnpm:2": {},
+	  "ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {}
+	}
 }

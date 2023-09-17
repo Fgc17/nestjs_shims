@@ -1,12 +1,16 @@
 {
-  "name": "nestjs_shims",
+  "name": "@ferstack/nestjs_shims",
   "version": "1.0.0",
   "description": "A collection of useful shim files related to nestjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "src"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": "https://github.com/Fgc17/nestjs_shims",
+  "dependencies": {
+    "@changesets/cli": "2.26.2"
   },
   "author": "Fernando Coelho",
   "license": "ISC"
