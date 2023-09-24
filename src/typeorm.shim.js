@@ -179,3 +179,7 @@ export function DiscriminatorValue(options) {
 export function Index(options) {
   return function (object, propertyName) {};
 }
+
+export function Unique() {
+  return function (object, propertyName) {};
+}
